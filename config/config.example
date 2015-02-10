@@ -1,0 +1,12 @@
+{
+  "name": "github-hook",
+  "scheme": "http",
+  "host": "asgh.mybluemix.net",
+  "port": 80,
+  "cloudant": {
+    "provider": "https://{user}.cloudant.com",
+    "username": "{user}",
+    "password": "{password}"
+  },
+  "secret": "{webhook-secret}"
+}

@@ -1,0 +1,4 @@
+**/config.json
+node_modules
+manifest.yml
+test.js
