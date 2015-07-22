@@ -9,11 +9,11 @@
   "author": "James M Snell <jasnell@gmail.com>",
   "license": "Apache v2.0",
   "dependencies": {
-    "activitystrea.ms": "0.1.0",
+    "activitystrea.ms": "0.5.9",
     "agentkeepalive": "^0.2.2",
     "body-parser": "^1.11.0",
     "express": "^4.11.2",
-    "linkeddata-vocabs": "^0.2.1",
+    "linkeddata-vocabs": "^0.6.0",
     "lru-cache": "^2.5.0",
     "nano": "^6.0.2",
     "url-template": "^2.0.4"
