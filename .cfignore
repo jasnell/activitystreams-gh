@@ -1,0 +1,5 @@
+node_modules
+SIGNED.md
+README.md
+.npmignore
+test
