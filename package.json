@@ -4,7 +4,8 @@
   "description": "Activity Streams 2.0 Githook Adapter",
   "main": "lib/hook.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node --harmony lib/hook"
   },
   "author": "James M Snell <jasnell@gmail.com>",
   "license": "Apache v2.0",
