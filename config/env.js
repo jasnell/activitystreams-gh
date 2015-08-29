@@ -1,4 +1,6 @@
-var config  = require('./config.json');
+'use strict';
+
+const config  = require('./config.json');
 
 // ********** LDP ********** //
 

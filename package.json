@@ -9,13 +9,13 @@
   "author": "James M Snell <jasnell@gmail.com>",
   "license": "Apache v2.0",
   "dependencies": {
-    "activitystrea.ms": "0.6.2",
+    "activitystrea.ms": "0.7.0",
     "agentkeepalive": "^0.2.2",
     "express": "^4.13.3",
-    "linkeddata-vocabs": "^0.6.0",
+    "linkeddata-vocabs": "^0.7.0",
     "lru-cache": "^2.6.5",
-    "nano": "^6.1.4",
-    "async": "^1.4.0",
+    "nano": "^6.1.5",
+    "async": "^1.4.2",
     "url-template": "^2.0.6"
   },
   "devDependencies": {
