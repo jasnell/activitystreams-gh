@@ -3,3 +3,4 @@ SIGNED.md
 README.md
 .npmignore
 test
+config/config.example

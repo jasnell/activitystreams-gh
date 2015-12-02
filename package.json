@@ -1,26 +1,29 @@
 {
   "name": "activitystreams-gh",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Activity Streams 2.0 Githook Adapter",
   "main": "lib/hook.js",
   "scripts": {
     "test": "mocha",
-    "start": "node --harmony lib/hook"
+    "start": "node lib/hook"
   },
   "author": "James M Snell <jasnell@gmail.com>",
   "license": "Apache v2.0",
   "dependencies": {
-    "activitystrea.ms": "0.7.0",
-    "agentkeepalive": "^0.2.2",
+    "activitystrea.ms": "0.11.0",
+    "agentkeepalive": "^2.0.3",
     "express": "^4.13.3",
-    "linkeddata-vocabs": "^0.7.0",
-    "lru-cache": "^2.6.5",
+    "linkeddata-vocabs": "^0.9.0",
+    "lru-cache": "^3.2.0",
     "nano": "^6.1.5",
-    "async": "^1.4.2",
+    "async": "^1.5.0",
     "url-template": "^2.0.6"
   },
   "devDependencies": {
-    "mocha": "^2.2.5"
+    "mocha": "^2.3.4"
   },
-  "private": true
+  "private": true,
+  "engines": {
+    "node": ">4.0.0"
+  }
 }

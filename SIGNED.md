@@ -3,13 +3,13 @@
 -----BEGIN PGP SIGNATURE-----
 Comment: GPGTools - https://gpgtools.org
 
-iQEcBAABCgAGBQJVr8X6AAoJEHNBsVwHCHesoxYH/jxGWayRh3HmL7zOQaI3kj+0
-aIKEjEiEdlxB/uzO91YNksXb7I0m+sqzIx85NNqI6rDMPoUexLJNuzp+S2GUF6e0
-qfij54F2vKEXcAOg2vQy9SqE+bOd/s5VYHY9f0vsQo5Jv5K3MS6A26WetZ8L0e9l
-znASEfA6A8WchBOFsmJhWy3luUakr8NK7E4HoIk5IsvZ8KL4JgKVEKccCBNe7gae
-ApuHWOZfFbxG7LFmN94LGPdxWgOp3/n5+LNrUiQ/7cBE8DU9rf250ZNVcSAmLiVS
-ptVJb7NxV7wg46z3EZkeiHWeCksh6VOlbdi2R5ZjegloSD8A+F3+t3WSYB43z5w=
-=OXdS
+iQEcBAABCgAGBQJWXkwDAAoJEHNBsVwHCHesidcIAImBXKW9Zc7utOY/Sw+pa7Mv
+uCxyNcUXPeA6OkRkQ8KBaeAKoPwyo19Due9yt1H4v7Tgon9OF0KKgY+g9HTeh5kx
+27r3rT8Wi2cJiPgeEpbUasPYbh2OzPZyZCkBYhBFA2gwphT2hKeIiIc/AUp68EjI
+b23lC3nKw6t4mvJgSUAOsoUsd0t4nAm2zMdDxMuxk96cYLuiHiWLkIGqgyFTBLCn
+EuoAWaFoWei9EV5Up9NGs9d/pfohwrciCkiraLUlFlP3E3ZqgWZ99werF3/gLfKL
+u3Wnzxqr6PASSahsPEAB/2FsxV4QXRWuBTkYV32LG6jR1Sp6aYeM4+TMDyhvqJI=
+=vVf0
 -----END PGP SIGNATURE-----
 
 ```
@@ -23,67 +23,70 @@ ptVJb7NxV7wg46z3EZkeiHWeCksh6VOlbdi2R5ZjegloSD8A+F3+t3WSYB43z5w=
 ```
 size   exec  file                                    contents                                                        
              ./                                                                                                      
-49             .gitignore                            788a349dc0ee1dfd0469354e8b2926479e6cf96e5cbfa1e5d3f8411b7d54bdd2
+71             .cfignore                             ec700a8a68144d0e8e3dd9989c49bb12a09f63e06d104cae355ee6bdba9a4dd5
+36             .gitignore                            a58f9b51e4eeafe725d31b21465acbb02bb88ef2919f76091d985ff01aaea742
+15             .npmignore                            1cf851cf8c126b6e5197198cfde99a9211ac9413a9faf1a4cfee2a15d4cd84c6
                config/                                                                                               
 249              config.example                      8c5a9eae3ef8d0f2dd61e1e803fb5ee604535cdfb4de2cf206adf6fd27966d18
-269              env.js                              4e89917f22f06a1399e5e5506c0d98e765355f41a8a2873c6cb03afbecffed13
+286              env.js                              e2bc6a54eb4138027bb4fe22ae1f2408e5678bba833ee10e4a3a8855f77bce73
                lib/                                                                                                  
-880              db.js                               063f82e43eb99e628b14f6de644bf46b8adc06fd1047812f7720698b534a93df
-1151             ghvocab.js                          d4cf8b286c92ec7047fbf2ec4542ed523530cdced917caa1b90d700e70e3c582
+940              db.js                               7aba38331d9a8b212cb223e66a86087fefa2ab6738412e4e360ad3fce2133073
+1179             ghvocab.js                          1d0fb6df63dc71e0f40cfa4d66cbf6549b49de6b4dcd3e8c1c5c0d0135f4646f
                  handlers/                                                                                           
-466                _commit_comment.js                83f3761ce754c86bfe6fb8060a8ebcc30595a47474232cdf442a7682ea18b836
-948                _create.js                        efc0d65551f6534affdf95b5406717fa2eb489f94c601e16b5b336942920a12b
-801                _delete.js                        44dc2b75101464689d0155e9e92b037bb48d6e115ce472a0c70f8df304e0c347
-405                _fork.js                          242b33de9579424bf8159e4cd220097dc7d7eb3e0bfaec61ec68ae60d470f4c9
-833                _gollum.js                        02c03ec1aa9f962dde45762c96ff4c90c8848e02beb6b05cf9a19b46373f3f48
-612                _issue_comment.js                 57963cb865f6b7f393d1dd6f01574f82bc3af6969bfaed3b87f3d5ed7a5828de
-2501               _issues.js                        8b9bddc49ac69ac53e122cce5875b70c730644462b31dc4c496daedf25561e9d
-464                _member.js                        6aa21fb2398565624b5a8be211277082c64d8cf6797eb22d50796ed2a78ebda8
-514                _membership.js                    46c01618a659c62890c4fa4a6952b5c71a714bad1790032b5d98bd11df8776f3
-429                _page_build.js                    c7f4f847f88fcb40732f953b84b8c8b6a57bb1bc30a2e9a1a9d3cd9da4e4b975
-295                _ping.js                          7b1a55a683b77d6d601c6440cb6a21e05a0bd6c44a17792032cbfd3aded8cb16
-350                _public.js                        24950c699f01331a0aac693c63d38654940f3aecca393c06abe206a2089e3d17
-673                _pull_request_review_comment.js   81005b941481331286900f7d21dc8781d2aee55ce94a6ae23d89edbe0d40a871
-2348               _pull_request.js                  15f1fd7086310239d93fac8e5e2731cba451e2d6ef9e42b63befd70e84a0adac
-1340               _push.js                          e5bc8e42e832f6eb74c35f2e13b59156fa7ed1283a19423fc9196b604d9f2188
-428                _release.js                       f0dc26553a490a734901134c000559f2ea3d3fa27d14fa7f6f77cfae5762bf83
-453                _repository.js                    ddecb683b1ee2fb1cdcd183e7e1cf1348583bffa3e3a412d3c47f198db3700c1
-521                _status.js                        e965432b98a5de37264862d7d445a5660d7c4a2afb92bd52212bdbc188e056e5
-565                _team_add.js                      a39c9207f1d67a4beb26d0a99765d87616f33e4fe95bc3146a80ab2c0df5f2d0
-348                _watch.js                         b315a7be3fd32b0b3ac7f49523a99aaf0702477e947da52f04f0b4b372b6d1fd
-1688               handlers.js                       1af3d6b7c44276a24ef4b10576219ae5e8d4ce648b3222093a8ac442e6bf85ea
+485                _commit_comment.js                b0ab5a669780a298808a0e78abe8a92a5ca03f1465d158dc6957829ff2537f29
+969                _create.js                        19cc3c1d9161192a55dce8953ffcbd12c99e5713435adbbb4162f59b73fb13a4
+822                _delete.js                        76b00b6b20dd2f13790d7de03d03c65982208554cfe778614dca7859361e96e8
+426                _fork.js                          8d14ff555753748278afb64f235a6be4417996a6a0846a5334766eab6960424e
+847                _gollum.js                        fa277ef0f0ccfbdc8f7d830f5397fe3250467be4127b7aa159c226a3d32d9c2e
+634                _issue_comment.js                 af0350fa758ad45639f3def5d0de72a06acf1b596de92854047f7dd7c016898f
+2571               _issues.js                        48a6c57fb86ba9bfdc83177ca7d5dac747565366de0b8741787c5e7bf773391b
+486                _member.js                        d519cca9b9f6af5a7b4d17b1d3d8aea8f04ed51ef740a7cbd2bb5ff1cea8f4f0
+537                _membership.js                    6d73ade47b2a7f75c45f7c29f433e1eb3b69b6fcaddb01ff5ba54f1fff121dae
+452                _page_build.js                    22357289874af0021c09ea913bcdb3035ad63c099f68ed55206e1e42a27e4188
+307                _ping.js                          2dffb571aa52c4754c4172c7895d168ba0745cdcc8cb8f28732f4d585d2a5c9e
+373                _public.js                        2aad4d32f2e31421a51565f4f5548421c89a0c7d81de20c37a99342032d0b3ac
+696                _pull_request_review_comment.js   1bb8d80995041c5ce218d1618a6ebc9506aae4ccf0c15cdf92fb6ec39c05bda6
+2419               _pull_request.js                  c8d91e8139b950e88d7c53a0e2ba7cffffabb1c31c19a8e5baf45db3a4af6b42
+1363               _push.js                          57643e4a264db933c6392e03122c798b2543da063c8fe038909dd2fe6e80d2f8
+451                _release.js                       8efa4bc3f5004303b759669763ec842e5dafae458eaa3bc1f71eefeb395bda14
+476                _repository.js                    4def0a5f64f981b48f44b08456ca2e300c9d2f10a601e7c412bf040c4862c977
+546                _status.js                        57c71962115a96294a41f5b2b96eccf0552a6cc6a4cdb91ee78765cac3b7b1dd
+588                _team_add.js                      92ea49f1cf5cbecac998c6e7e404c61b63faf2a85b77af6d5014e151e7161d79
+371                _watch.js                         600afb56549d34791b0f5738aeed42cb166b153de9f9aebcc6babede71aecf78
+1704               handlers.js                       951d9bc191db962092fc44f7ec832fc7816e97e48e6487920dd2320bd7655b0c
 50                 package.json                      c69f2322d35c5f99e84b154997e6c38cbe74bdf7b23bbd9f94ed5aeced0f5ac6
-3760             hook.js                             07a0dbaf17d60d3fcd24c3aa302b57ffd54213c63651775fe5226e4f28317571
+5381             hook.js                             af049cd8943a8e024c34ef7c09f2188c737f411954a658f92dfbdd2690e09dc9
                  models/                                                                                             
-825                _asset.js                         2ec2423e584ab8ab0ec03b6e7f5135a1490881dc69569e507cb8afdeaa2a5d09
-416                _blob.js                          b5f735b60df0758e95e705c1d591f38e62544a43d8079c345a6e3e8f1def6a96
-490                _branch.js                        6554d195cc73f2eabfc7124420b9f4665143ea6372d793ff8bf7817ff8f8ae79
-1609               _comment.js                       10d71cd6df9ded60bd085fd8061d6af79855a448b27309c6d49c44f06d43eb38
-1187               _commit.js                        8bfc98d50574dd716b13e24fbb1017a48382b37dc6a841a1cc5f558dff6cae92
-905                _content.js                       f3889e9ae6b880e7746aed945bf47324b2a95da06b9bc8fd1398ea17af5391cf
-620                _default_cache.js                 f444f86e4a9c0840942212f0a1374c3c52c9df50fe6f811c912ca673574b129e
-1661               _gist.js                          ed5900a6f4b68beabd67c6c5653e4a86df5d175271e97c02dc79bb7be67cef01
-863                _hook.js                          5d95443245b964087dcc13cfce71f00a9d692462f717bacbc1682b3c776bb8a8
-1325               _issue.js                         9876a7b87ff775265c926d6c915a95376269bca824bad22e0324bc1af29d64e7
-862                _milestone.js                     4fa1400637ee7f58a23faca984b172e9ab8e1d884215338fc9aa80a48abde513
-1348               _organization.js                  1f4333ed39467f71de4a5d5d5e08fe025fac2e2133541d6fbacfde14a475b581
-713                _pagebuild.js                     cd12462a94c044fec859d39e14e871e5032a3a835b47322313c995b5e4f4af33
-2049               _pullrequest.js                   a280a2079302caa753714350d5231ae8a923e50e340ce2bfd99303721fda60b1
-1045               _rawcommit.js                     10fec6e873506719806322ef03ce37ab06e8d5f616e3b7809c26355074fdfd89
-849                _rawtag.js                        f3e59a3fda77d31bae536ec39234b101373cf1c4476c1a535508e0709d2c9abd
-536                _ref.js                           1a4acffe19102f4ec29f21bbf1f66c8552060ab36ab45f6e525ab2385503e51d
-1306               _release.js                       ee764e1445a0c4e944a64cd70917855622bc2865f5d18886eede5c3a1bdeff92
-1573               _repository.js                    888446efec23e49855243d369d529b355017e7cfddcca65d9f7349c3076d5885
-1325               _status.js                        d605173d0e59b6b7fac1c16c763c2b711bccda5027e278c5be95b71f6c3aaa4c
-506                _tag.js                           c74c6babe5d72e77607ab4b95a91c395d9e3d5c4c1e87f29d08f957302b278d6
-495                _team.js                          a453906c94243c72812a19207e49254db0c4462311ea6491a5249ecfccb86900
-902                _tree.js                          0c585ab8a4b419b6eb272507a9c799c5d2e78588d171074515c9259a26e6a151
-1366               _user.js                          8150dd994d81a9ccd32fa387651884780a50152358e42a4b1a20256bf8491d48
-2516               models.js                         085e66a595b0eb4d60a5f91ea2c3a956c955a13dc41ff1fc7fe8dfede6795ebe
+842                _asset.js                         66357a897eaade46950471f1b0e48f939d402acd5b9d1b248b622e5bc99d13ea
+436                _blob.js                          0cacb92617d7aa5b3cd708327775502d389c484311f326083cc1ab52e6d6f1a9
+503                _branch.js                        b32e956facd6fb11a1cd507c3973deb1a0bda604029e98878a05dcb8e90bfe04
+1633               _comment.js                       2db9619793fc89152a9f99a8aca4a47514b319e8455d3224a66010d4cc57967e
+1202               _commit.js                        5a3886c0d47e843adaaa16260834b174125591829c246b5fccf2913d10c5fe9f
+922                _content.js                       01f9b3b2fa2031a9415936052a0ee0e420bf39408ab3f6d734623794c525315b
+640                _default_cache.js                 9cca1c0fa4005012151c4c71bb6419618a0bba907dd02e65ce0df8b34317cc43
+1668               _gist.js                          51b84d410c0fe853ba2a22d7032abc140dee3d53c5907b6c151a8813381b0bfe
+875                _hook.js                          4a7a4269a12f6489bfdda640923d77619d1160072ef1e98e5372a278889131b2
+1333               _issue.js                         0da4ab660a431155b0415beefa8d99a3b11a7ec0075e8f4482359e97b4634e5a
+876                _milestone.js                     0b0bd573132652bd1c923b75d35a0f6e4ad6252c5bde24898893413a4eeec1d8
+1354               _organization.js                  224d32444650d354d13b226566e258b8581cd7f5670b3748dc62769d7bee83fb
+734                _pagebuild.js                     a55eea954efa0f2f88ddfbab51abaca1afc59070898a985acd102f7969b14e5c
+2055               _pullrequest.js                   cf5a7a42526889c11def3ef8d1ad3156b21ad01b6e14754ebce584165e521f96
+1060               _rawcommit.js                     861537e1a23069c23aa6d7b62ff32c38d56e091fcb5e48b81c0bf46097d08870
+855                _rawtag.js                        28c29b4ce4b9050e23bf0cfd0673030a593650cbbec3788dc5fce76a6e3ee892
+549                _ref.js                           722b7f996e772bceaed99de27fe9ba3756db907b20088188a0353fa127a56aa2
+1321               _release.js                       6616db6e18d79d9f2f343e52f4e05aa69832fefe7e1eb57686e9ef53e904e1a2
+1590               _repository.js                    2fc1c672a992ea1fadda0f0beffd453ee9b3f11649ebaa8c6725e54835f5d1bb
+1347               _status.js                        b592037bd8a70fe011c6fea79fde523158c3da97211ab80e61f6cdc59ddf8acc
+519                _tag.js                           21a8aa9b474744c90e32d0f0dd0577d5e72a566a90c76de72af220f00000b18b
+508                _team.js                          5f5378962e84eff75313c2edea4926bcac9645f3fcb76eae25046e1f60cc1282
+924                _tree.js                          bf5350be8665d9e83f9ee86824bb37e3c8fa7e3ec721ef490f4fcc6fad4d0a63
+1372               _user.js                          a6a6bfda9703e956cc1c6d4cf89808d0dcb43c8cb6e96a62379f9d50fe855051
+2536               models.js                         0696b455f54f34d22665e2ea9a47af25eb96d05deac63274e723a3bb11980a85
 46                 package.json                      575aee8147cc86825bde1d7ed2a27510c83637d662be39a833e5f1b61b5aef26
-553            package.json                          22e4c60c0fbc702139a484d9f2a9d2c923b1c12aadec22049423287dfd50e005
+173            manifest.yml                          1b89b434eecace89fd3cb220c5728ba867d35ec010f6b71f15ba244eec6aeef8
+649            package.json                          5cb04b3be3ad9f057fe69078e425de22b7eeb424e52dcf629e7577f9b8b97867
 179            README.md                             df7e609ce0a2ac92e0e3f5a1233212bfee1e130531e7f30af4bcbfeaec0731ec
-               tests/                                                                                                
+               test/                                                                                                 
                  data/                                                                                               
 8246               commit_comment.json               1571818e6a717342bc5d0371ce9952c63c2cfada52cc66fde4249d38226aa437
 6734               create.json                       d0667ffe56239e39f69334abb9822e1de14ff6a80ce020635343248c5e3e08e7
@@ -104,7 +107,7 @@ size   exec  file                                    contents
 11109              status.json                       7882de481c21194018647477e557a0bf53be9df815649119cc12160988cc50e6
 7748               team_add.json                     1b50e566a0bb86e831968a160937f0cc72f35bf20cce9c3e8e415b00a1972a09
 6643               watch.json                        38eabc86ebf634fa95bf0d744f6eaffd1eadb965aa71fa20ecd703c084e60e49
-571              tests.js                            2fc935410393eacf9b07f7c2f861cbfe130a91dd6f98572fa184d3ef38901db1
+844              tests.js                            c596a8f508f3ddec98578ecbae6096cd327104c1c7d6daae34c3078692646615
 ```
 
 #### Ignore
